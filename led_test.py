@@ -19,5 +19,7 @@ except KeyboardInterrupt:
     print("Exiting gracefully")
 
 finally:
+    # Ensure the pin is set to LOW before cleaning up
+    GPIO.output(output_pin, GPIO.LOW)
     # Clean up the GPIO pins before exiting
     GPIO.cleanup()
