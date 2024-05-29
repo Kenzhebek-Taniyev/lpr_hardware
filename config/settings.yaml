@@ -1,0 +1,11 @@
+camera:
+  # path: "sample/sample1.mp4"
+  path: "rtsp://admin:Kenzhebek.@192.168.0.125:554/Streaming/Channels/101"
+
+api_settings:
+  base_url: "http://"
+  parking_id: 1
+
+# Add any other configurations here
+general_settings:
+  video: False
